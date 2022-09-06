@@ -21,7 +21,7 @@ jobs:
       with:
         dotnet-version: 6.x
     - name: Set up NuGet
-      uses: NuGet/setup-nuget
+      uses: NuGet/setup-nuget@v1
     - name: Restore packages
       run: nuget restore $SOLUTION
     - name: Build
