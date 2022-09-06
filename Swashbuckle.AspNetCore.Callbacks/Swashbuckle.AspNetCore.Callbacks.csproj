@@ -5,6 +5,13 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Swashbuckle.AspNetCore.Callbacks</PackageId>
+        <Version>1.1</Version>
+        <Authors>Andrew Chaa</Authors>
+        <Description>Callbacks / Webhooks Support for Swashbuckle.AspNetCore</Description>
+        <PackageProjectUrl>https://github.com/andrewchaa/Swashbuckle.AspNetCore.Callbacks</PackageProjectUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>Swashbuckle.AspNetCore, Callbacks, Webhook</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
